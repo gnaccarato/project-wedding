@@ -132,7 +132,7 @@ body {
     100% {opacity: 1}
 }
 
-.about_us {
+#about_us {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 100px;
@@ -152,13 +152,15 @@ body {
 
 .about_content h4 {
     margin: 15px auto;
+    color: #ff0024;
 }
 
 .about_content p {
-    line-height: 1.4
+    line-height: 1.4;
+    color: #444;
 }
 
-.our_story {
+#our_story {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 100px;
@@ -179,10 +181,12 @@ body {
 
 .story_content h5 {
     margin: 15px auto;
+    color: #ff0024;
 }
 
 .story_content p {
-    line-height: 1.4
+    line-height: 1.4;
+    color: #444;
 }
 
 .bridal_party {
@@ -205,17 +209,20 @@ body {
 
 .bridal_content h4 {
     margin: 15px auto;
+    color: #ff0024;
 }
 
 .bridal_content h5 {
     margin: 15px auto;
+    color: #444;
 }
 
 .bridal_content p {
     margin: 15px auto;
+    color: #444;
 }
 
-.important_events {
+#important_events {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 100px;
@@ -235,24 +242,27 @@ body {
 
 .events_content h4 {
     margin: 15px auto;
+    color: #ff0024;
 }
 
 .events_content h5 {
     margin: 15px auto;
+    color: #444;
 }
 
-.rsvp_now {
+#rsvp_now {
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;    
 }
 
-.rsvp_now h1 {
+#rsvp_now h1 {
     margin-bottom: 25px;
+    color: #ff0024;
 }
 
-.rsvp_now input {
+#rsvp_now input {
     height: 2rem;
     width: 400px;
     margin: 15px auto;
@@ -260,7 +270,7 @@ body {
     border: 1px solid #999;
 }
 
-.rsvp_now select {
+#rsvp_now select {
     height: 2rem;
     width: 100px;
     margin: 15px auto;
@@ -268,7 +278,7 @@ body {
     border: 1px solid #999;
 }
 
-.rsvp_now button {
+#rsvp_now button {
     height: 3rem;
     width: 175px;
     font-size: 1.5rem;
@@ -279,7 +289,7 @@ body {
     background: #ff0024;
 }
 
-.rsvp_now button:hover {
+#rsvp_now button:hover {
     color: #ff0024;
     background: transparent;
     border: 1px solid #ff0024;
